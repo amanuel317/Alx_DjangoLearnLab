@@ -1,0 +1,7 @@
+run = "mkdir 0x1.Introduction_ to_ Django"
+modules = ["python-3.10"]
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "mkdir 0x1.Introduction_ to_ Django"]
